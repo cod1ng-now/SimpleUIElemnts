@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SimpleUiElements</string>
+    <string name="texts">KOTLIN, JAVA, SWIFT, DART, PYTHON, JAVASCRIPT, C++, C#</string>
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/red"
+                android:text="red"
+                android:textSize="20sp"
+                android:paddingStart="5dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/blue"
+                android:text="blue"
+                android:textSize="20sp"
+                android:paddingStart="5dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/green"
+                android:text="green"
+                android:textSize="20sp"
+                android:paddingStart="5dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+        </RadioGroup>
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="search 1"/>
+
+        <MultiAutoCompleteTextView
+            android:id="@+id/multiCompleteText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:hint="search for more"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/texts"
+            android:textSize="17sp"/>
+
+    </LinearLayout>
+
+
+
+</androidx.core.widget.NestedScrollView>
